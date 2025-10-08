@@ -16,35 +16,10 @@ This is a very common interview topic. The key difference is the data's state wh
 
 * **Data Warehouse**: Stores **structured, processed data**. It's the final, clean, and ready-to-use version.
 * **Data Lake**: Stores **raw, unprocessed data**. It's a vast pool of data in its native format, including structured, semi-structured (like JSON), and unstructured data.
-<br>
 ```mermaid
 graph TD
-    subgraph Data Sources
-        A[App Databases]
-        B[APIs]
-        C[CSV Files]
-    end
-
-    subgraph Data Lake
-        D[Raw Data]
-        E[Unstructured Data]
-    end
-
-    subgraph Data Warehouse
-        F[Cleaned Tables]
-        G[Aggregated Metrics]
-    end
-
-    subgraph Analytics & BI
-        H[BI Tools (Tableau)]
-        I[Ad-Hoc Analysis]
-    end
-
-    A --> |Raw Ingestion| D
-    B --> |Raw Ingestion| D
-    C --> |Raw Ingestion| D
-
-    D -- "ELT: Transformation" --> F
-    F --> G
-    G --> H
-    G --> I
+    A[Source Systems] --> B(Raw Data Layer)
+    B --> C[Cleaned & Transformed Data]
+    C --> D[Aggregated Metrics]
+    D --> E[Analytics & BI Tools]
+```
