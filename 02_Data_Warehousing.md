@@ -16,7 +16,7 @@ This is a very common interview topic. The key difference is the data's state wh
 
 * **Data Warehouse**: Stores **structured, processed data**. It's the final, clean, and ready-to-use version.
 * **Data Lake**: Stores **raw, unprocessed data**. It's a vast pool of data in its native format, including structured, semi-structured (like JSON), and unstructured data.
-
+<br>
 ```mermaid
 graph TD
     subgraph Data Sources
