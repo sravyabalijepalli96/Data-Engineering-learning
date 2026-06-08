@@ -12,3 +12,10 @@ Python automatically assigns a data type to a variable based on what you store i
 ### 2. Pandas DataFrames
 - A **DataFrame** is the core structure in the Pandas library. It represents data as a two-dimensional grid of rows and columns (similar to an Excel sheet).
 - **`df.shape`**: A built-in attribute that tells us the dimensions of our data table. `df.shape[0]` returns the number of rows, and `df.shape[1]` returns the number of columns.
+
+
+## Ingestion Code Breakdown
+- **`import pandas as pd`**: Loads the data manipulation library with a short alias.
+- **`pd.read_csv()`**: Converts a raw comma-separated text stream into a structured DataFrame.
+- **`df.shape[0]` / `df.shape[1]`**: Extracts the row count and column count respectively from the DataFrame dimensions.
+- **F-Strings (`f"..."`)**: Allows embedding live Python variables and attributes directly inside print statements using curly braces `{}`.

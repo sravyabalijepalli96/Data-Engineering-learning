@@ -46,3 +46,11 @@ The goal of this project is to build a robust, reproducible data infrastructure 
 
 \- \*\*Version Control:\*\* Git \& GitHub
 
+
+
+## Data Source & Provenance
+To ensure research reproducibility, the raw data used in this pipeline is sourced from a verified public health tracking repository:
+- **Human-Readable Dataset View:** [Machine Learning with R Datasets - Insurance](https://github.com/stedy/Machine-Learning-with-R-datasets/blob/master/insurance.csv)
+- **Direct Data Pipeline Endpoint (Raw CSV):** [Raw Ingestion Link](https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv)
+
+The dataset contains 1,338 fully anonymized patient records mapping demographic, geographic, and lifestyle metrics against annual medical billing charges.
