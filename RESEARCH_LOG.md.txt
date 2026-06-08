@@ -1,0 +1,14 @@
+# Engineering Log & Notes
+**Author:** Sravya
+
+## Core Python Concepts Learned
+
+### 1. Variables and Data Types
+Python automatically assigns a data type to a variable based on what you store in it:
+- **String (`str`):** Text data, always enclosed in quotes (e.g., `"Sravya"`).
+- **Integer (`int`):** Whole numbers without a decimal (e.g., `1338`).
+- **Float (`float`):** Decimal numbers used for financial or precise metrics (e.g., `150.50`).
+
+### 2. Pandas DataFrames
+- A **DataFrame** is the core structure in the Pandas library. It represents data as a two-dimensional grid of rows and columns (similar to an Excel sheet).
+- **`df.shape`**: A built-in attribute that tells us the dimensions of our data table. `df.shape[0]` returns the number of rows, and `df.shape[1]` returns the number of columns.
